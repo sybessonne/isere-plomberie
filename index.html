@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plombier Grenoble – Isère Plomberie | Dépannage Urgence 7j/7</title>
+<meta name="description" content="Isère Plomberie, votre plombier à Grenoble et dans tout le 38. Dépannage urgence 7j/7, fuite d'eau, débouchage, installation salle de bain. Devis gratuit.">
+<meta name="keywords" content="plombier Grenoble, plombier urgence Grenoble, dépannage plomberie Isère, fuite eau Grenoble, débouchage Grenoble, plombier 38">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Isère Plomberie">
+<link rel="canonical" href="https://isere-plomberie.fr/">
+<meta property="og:title" content="Plombier Grenoble – Isère Plomberie">
+<meta property="og:description" content="Dépannage urgence 7j/7, installation et rénovation. Votre plombier de confiance à Grenoble et en Isère. Devis gratuit.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://isere-plomberie.fr/">
+<meta property="og:locale" content="fr_FR">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Plumber",
+  "name": "Isère Plomberie",
+  "description": "Plombier à Grenoble et en Isère – dépannage urgence, installation et rénovation",
+  "url": "https://isere-plomberie.fr",
+  "email": "contact@isere-plomberie.fr",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Grenoble",
+    "addressRegion": "Isère",
+    "postalCode": "38000",
+    "addressCountry": "FR"
+  },
+  "areaServed": {"@type": "AdministrativeArea", "name": "Isère"},
+  "openingHours": ["Mo-Sa 08:00-19:00"],
+  "priceRange": "€€"
+}
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --blue: #1A3C6B;
+    --blue-light: #2E6BB8;
+    --accent: #F4A623;
+    --bg: #F7F9FC;
+    --white: #ffffff;
+    --text: #1a1a2e;
+    --muted: #5a6a7a;
+    --border: #dce4ef;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  /* Conteneur centré réutilisable */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* NAV */
+  nav {
+    background: var(--blue);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .nav-inner {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+  }
+  .logo {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--white);
+  }
+  .logo span { color: var(--accent); }
+  .nav-cta {
+    background: var(--accent);
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 13px;
+    padding: 8px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+  }
+
+  /* URGENCE BAR */
+  .urgence-bar {
+    background: #fff8ec;
+    border-bottom: 1px solid #f8d89a;
+  }
+  .urgence-inner {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .urg-text {
+    font-size: 14px;
+    color: #7a4d00;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .urgence-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: #e07b00;
+    animation: pulse 1.5s infinite;
+    flex-shrink: 0;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(1.3); }
+  }
+  .urg-tel {
+    font-family: 'Syne', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--blue);
+    text-decoration: none;
+  }
+
+  /* HERO */
+  .hero { background: linear-gradient(135deg, var(--blue) 0%, #1e4f8c 100%); }
+  .hero-inner {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 80px 24px 70px;
+  }
+  .hero-badge {
+    display: inline-block;
+    background: rgba(244,166,35,0.2);
+    color: var(--accent);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 14px;
+    border-radius: 20px;
+    border: 1px solid rgba(244,166,35,0.35);
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .hero h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(26px, 3.5vw, 44px);
+    font-weight: 800;
+    line-height: 1.15;
+    color: var(--white);
+    margin-bottom: 16px;
+    max-width: 580px;
+  }
+  .hero h1 span { color: var(--accent); }
+  .hero-desc {
+    font-size: 16px;
+    color: rgba(255,255,255,0.85);
+    max-width: 480px;
+    margin-bottom: 36px;
+    line-height: 1.7;
+  }
+  .hero-btns { display: flex; gap: 12px; flex-wrap: wrap; }
+  .btn-primary {
+    background: var(--accent);
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 15px;
+    padding: 13px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  .btn-outline {
+    background: transparent;
+    color: var(--white);
+    font-weight: 500;
+    font-size: 15px;
+    padding: 13px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 1.5px solid rgba(255,255,255,0.4);
+  }
+  .hero-stats {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    padding-top: 32px;
+    border-top: 1px solid rgba(255,255,255,0.15);
+    flex-wrap: wrap;
+  }
+  .stat-item .num {
+    font-family: 'Syne', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--accent);
+  }
+  .stat-item .label { font-size: 12px; color: rgba(255,255,255,0.65); margin-top: 2px; }
+
+  /* SECTIONS */
+  .section { padding: 64px 0; }
+  .section-label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--blue-light);
+    margin-bottom: 10px;
+  }
+  .section-title {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(20px, 2.5vw, 30px);
+    font-weight: 800;
+    color: var(--blue);
+    margin-bottom: 8px;
+    line-height: 1.2;
+  }
+  .section-sub {
+    color: var(--muted);
+    font-size: 15px;
+    max-width: 520px;
+    margin-bottom: 40px;
+    line-height: 1.7;
+  }
+
+  /* SERVICES */
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 16px;
+  }
+  .service-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .service-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(26,60,107,0.1);
+  }
+  .service-icon {
+    width: 44px; height: 44px;
+    border-radius: 10px;
+    background: #e8f0fb;
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 14px;
+    font-size: 22px;
+  }
+  .service-urgence .service-icon { background: #fff3e0; }
+  .service-card h2 {
+    font-family: 'Syne', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--blue);
+    margin-bottom: 7px;
+  }
+  .service-card p { font-size: 13px; color: var(--muted); line-height: 1.6; }
+  .urgence-tag {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    background: #fff3e0;
+    color: #b85c00;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-top: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  /* POURQUOI */
+  .why-section { background: var(--blue); }
+  .why-section .section-label { color: var(--accent); opacity: 0.9; }
+  .why-section .section-title { color: var(--white); }
+  .why-section .section-sub { color: rgba(255,255,255,0.65); }
+  .why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+  }
+  .why-card {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 12px;
+    padding: 24px 20px;
+  }
+  .why-num {
+    font-family: 'Syne', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  .why-card h3 { font-size: 14px; font-weight: 600; color: var(--white); margin-bottom: 6px; }
+  .why-card p { font-size: 13px; color: rgba(255,255,255,0.6); line-height: 1.6; }
+
+  /* ZONE */
+  .zone-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+  .zone-tag {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 6px 14px;
+    font-size: 13px;
+    color: var(--blue);
+    font-weight: 500;
+  }
+
+  /* CONTACT */
+  .contact-section { background: var(--white); }
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: start;
+  }
+  @media (max-width: 640px) { .contact-wrapper { grid-template-columns: 1fr; } }
+  .contact-info h3 {
+    font-family: 'Syne', sans-serif;
+    font-size: 20px; font-weight: 700;
+    color: var(--blue); margin-bottom: 16px;
+  }
+  .contact-item { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 16px; }
+  .contact-item-icon {
+    width: 36px; height: 36px;
+    border-radius: 8px; background: #e8f0fb;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0; font-size: 17px;
+  }
+  .cit-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; font-weight: 600; }
+  .cit-val { font-size: 15px; font-weight: 500; color: var(--text); margin-top: 1px; }
+  .contact-form { display: flex; flex-direction: column; gap: 12px; }
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form select {
+    width: 100%; padding: 11px 14px;
+    border: 1px solid var(--border); border-radius: 8px;
+    font-family: 'Inter', sans-serif; font-size: 14px;
+    color: var(--text); background: var(--bg); outline: none;
+  }
+  .contact-form input:focus,
+  .contact-form textarea:focus { border-color: var(--blue-light); }
+  .contact-form textarea { resize: vertical; min-height: 100px; }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .btn-submit {
+    background: var(--blue); color: var(--white);
+    font-weight: 600; font-size: 15px;
+    padding: 13px; border-radius: 8px;
+    border: none; cursor: pointer; width: 100%;
+    font-family: 'Inter', sans-serif;
+  }
+  .btn-submit:hover { background: var(--blue-light); }
+
+  /* FOOTER */
+  footer { background: #0f2444; }
+  .footer-inner {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 24px;
+    text-align: center;
+    color: rgba(255,255,255,0.55);
+    font-size: 13px;
+  }
+  .footer-inner strong { color: rgba(255,255,255,0.85); }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="logo">Isère <span>Plomberie</span></div>
+    <a href="#contact" class="nav-cta">📞 Nous contacter</a>
+  </div>
+</nav>
+
+<div class="urgence-bar">
+  <div class="urgence-inner">
+    <div class="urg-text">
+      <div class="urgence-dot"></div>
+      Intervention d'urgence 7j/7 — disponible rapidement sur Grenoble et alentours
+    </div>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">✦ Plombier à Grenoble</div>
+    <h1>Votre plombier de <span>confiance</span> en Isère</h1>
+    <p class="hero-desc">Dépannage rapide, installation et rénovation. Isère Plomberie intervient sur Grenoble et tout le département pour tous vos besoins en plomberie.</p>
+    <div class="hero-btns">
+      <a href="#contact" class="btn-primary">🔧 Demander un devis gratuit</a>
+      <a href="#services" class="btn-outline">Nos prestations →</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="num">24h</div>
+        <div class="label">Délai d'intervention urgence</div>
+      </div>
+      <div class="stat-item">
+        <div class="num">38</div>
+        <div class="label">Département couvert</div>
+      </div>
+      <div class="stat-item">
+        <div class="num">100%</div>
+        <div class="label">Devis gratuit &amp; sans engagement</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-label">Nos prestations</div>
+    <h2 class="section-title">Plombier à Grenoble – Tous types d'interventions</h2>
+    <p class="section-sub">Du dépannage urgent à l'installation complète, nous couvrons tous vos besoins en plomberie sur Grenoble et l'Isère.</p>
+    <div class="services-grid">
+      <article class="service-card service-urgence">
+        <div class="service-icon" aria-hidden="true">🚨</div>
+        <h2>Dépannage urgence Grenoble</h2>
+        <p>Fuite d'eau, canalisation bouchée, dégât des eaux. Intervention rapide 7j/7 sur Grenoble et le 38.</p>
+        <div class="urgence-tag">Urgence</div>
+      </article>
+      <article class="service-card">
+        <div class="service-icon" aria-hidden="true">🛁</div>
+        <h2>Installation salle de bain</h2>
+        <p>Installation et rénovation complète de salle de bain, douche, baignoire, WC à Grenoble.</p>
+      </article>
+      <article class="service-card">
+        <div class="service-icon" aria-hidden="true">🍳</div>
+        <h2>Plomberie cuisine</h2>
+        <p>Raccordement évier, lave-vaisselle, plomberie cuisine neuve ou rénovée en Isère.</p>
+      </article>
+      <article class="service-card">
+        <div class="service-icon" aria-hidden="true">🔥</div>
+        <h2>Chauffe-eau &amp; chaudière</h2>
+        <p>Installation, remplacement et entretien de chauffe-eau et chaudières sur Grenoble.</p>
+      </article>
+      <article class="service-card">
+        <div class="service-icon" aria-hidden="true">🔩</div>
+        <h2>Débouchage Grenoble</h2>
+        <p>Débouchage canalisation, remplacement de tuyaux, détection de fuites cachées.</p>
+      </article>
+      <article class="service-card">
+        <div class="service-icon" aria-hidden="true">🏠</div>
+        <h2>Rénovation plomberie</h2>
+        <p>Plomberie complète pour construction neuve ou travaux de rénovation en Isère.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section why-section">
+  <div class="container">
+    <div class="section-label">Pourquoi nous choisir</div>
+    <h2 class="section-title">Les raisons de nous faire confiance</h2>
+    <p class="section-sub">Une entreprise locale, réactive et transparente au service des habitants de Grenoble et de l'Isère.</p>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-num">01</div>
+        <h3>Devis gratuit</h3>
+        <p>Estimation claire et détaillée avant tout travail, sans surprise sur la facture finale.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-num">02</div>
+        <h3>Réactivité</h3>
+        <p>Nous répondons vite et intervenons dans les meilleurs délais, même en urgence.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-num">03</div>
+        <h3>Artisan local Isère</h3>
+        <p>Basé en Isère, nous connaissons le terrain et sommes proches de nos clients grenoblois.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-num">04</div>
+        <h3>Travail soigné</h3>
+        <p>Des finitions propres et durables. Nous respectons votre logement à chaque intervention.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-label">Zone d'intervention</div>
+    <h2 class="section-title">Plombier Grenoble &amp; Isère (38)</h2>
+    <p class="section-sub">Nous intervenons sur tout le département de l'Isère (38), principalement dans ces secteurs :</p>
+    <div class="zone-tags">
+      <span class="zone-tag">📍 Grenoble</span>
+      <span class="zone-tag">📍 Échirolles</span>
+      <span class="zone-tag">📍 Saint-Martin-d'Hères</span>
+      <span class="zone-tag">📍 Meylan</span>
+      <span class="zone-tag">📍 Fontaine</span>
+      <span class="zone-tag">📍 Crolles</span>
+      <span class="zone-tag">📍 Vizille</span>
+      <span class="zone-tag">📍 Voiron</span>
+      <span class="zone-tag">📍 Bourgoin-Jallieu</span>
+      <span class="zone-tag">+ tout le 38</span>
+    </div>
+  </div>
+</section>
+
+<section class="section contact-section" id="contact">
+  <div class="container">
+    <div class="section-label">Contact</div>
+    <h2 class="section-title">Devis gratuit – Plombier Grenoble</h2>
+    <p class="section-sub">Remplissez le formulaire ou appelez-nous directement. Réponse rapide garantie.</p>
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <h3>Isère Plomberie</h3>
+        <div class="contact-item">
+          <div class="contact-item-icon" aria-hidden="true">📧</div>
+          <div class="contact-item-text">
+            <div class="cit-label">Email</div>
+            <div class="cit-val">contact@isere-plomberie.fr</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon" aria-hidden="true">📍</div>
+          <div class="contact-item-text">
+            <div class="cit-label">Zone</div>
+            <div class="cit-val">Grenoble &amp; Isère (38)</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon" aria-hidden="true">🕐</div>
+          <div class="contact-item-text">
+            <div class="cit-label">Horaires</div>
+            <div class="cit-val">Lun–Sam 8h–19h · Urgences 7j/7</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <form class="contact-form" action="https://formspree.io/f/TONCODE" method="POST">
+          <div class="form-row">
+            <input type="text" name="prenom" placeholder="Votre prénom" required />
+            <input type="text" name="nom" placeholder="Votre nom" required />
+          </div>
+          <input type="tel" name="telephone" placeholder="Votre téléphone" required />
+          <select name="demande" required>
+            <option value="" disabled selected>Type de demande</option>
+            <option>Urgence — fuite / dégât des eaux</option>
+            <option>Débouchage</option>
+            <option>Chauffe-eau / chaudière</option>
+            <option>Salle de bain / cuisine</option>
+            <option>Travaux neufs / rénovation</option>
+            <option>Autre</option>
+          </select>
+          <textarea name="message" placeholder="Décrivez votre problème ou votre projet..."></textarea>
+          <button type="submit" class="btn-submit">Envoyer ma demande →</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <strong>Isère Plomberie</strong> · Plombier à Grenoble &amp; Isère (38)<br>
+    <span style="font-size:12px; opacity:0.5; margin-top:6px; display:block;">© 2025 Isère Plomberie — Tous droits réservés</span>
+  </div>
+</footer>
+
+</body>
+</html>
